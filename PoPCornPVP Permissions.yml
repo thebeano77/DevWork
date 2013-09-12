@@ -5,7 +5,8 @@
 ##   MC IP: 108.170.3.146:28160   ##
 ####################################
 groups:
-    Default:
+#Kernel: Default. 
+    Kernel:
         default: true
         permissions:
         - essentials.spawn
@@ -14,11 +15,23 @@ groups:
         - essentials.list
         - essentials.helpop
         - essentials.help
-        - modifyworld.*
-        prefix: '&e'
-        options:
-            build: false
-            rank: '1000'
+        - essentials.testin.KK
+        - essentials.tell
+        - essentials.msg
+        - essentials.r
+        - essentials.reply
+        - -essentials.warp
+        - essentials.compass
+        - essentials.unstuck
+       #- essentials.kit?
+       - essentials.bal
+       - essentials.pay
+       - iConomy.holdings
+       - iConomy.help
+       - iConomy.payment
+       - 
+        prefix: '&9'
+        suffix: ''
     Builder:
         permissions:
         - essentials.afk
